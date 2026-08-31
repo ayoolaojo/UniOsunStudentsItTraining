@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+ p {
+        color: green;
+        background-color: yellow;
+       }
+
+
+       a {
+        text-decoration: none;
+       }
+
+       ul {
+        list-style: circle;
+       }
+
+       .para3{
+         color: blue;
+         text-transform: uppercase;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 3rem;
+         text-decoration: underline;
+
+       }
+
+       #regBtn {
+        height: 50px;
+        width: 150px;
+        background-color: green ;
+        color: white;
+        border-radius: 10px;
+        border:none;
+
+       }
