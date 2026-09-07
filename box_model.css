@@ -33,6 +33,23 @@ h1{
     border-radius:100% ;
 }
 
+.box2 {
+    margin: 50px 30px 20px 0px;
+    background-color: azure;
+}
+
+.box5 {
+    background-color: blueviolet;
+    color: white;
+    margin: 30px 70px;
+}
+
+
+.box6{
+    background-color:yellow ;
+    padding:30px 15px;
+}
+
 
 
 
