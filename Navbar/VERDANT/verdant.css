@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    
+   
+}
+
+header {
+    background-color: rgb(245, 239, 230);
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 3rem ;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 25px;
+    width: 25px;
+}
+
+.logo h1{
+    font-family: "Dancing Script", cursive;
+    font-size:1.5rem ;
+    color: rgb(90, 117, 84);
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(90, 117, 84);
+    font-size: 0.7rem;
+    font-family:"Inter", sans-serif;
+    font-weight:500 ;
+}
+
+header button {
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(90, 117, 84);
+    border-radius: 10px;
+    
+}
+
+header button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 0.6rem;
+}
+
+
+
+
+
