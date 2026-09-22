@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   min-height:500vh;
+   width: 100%;
+   background-color: teal;
+   display: flex;
+   flex-direction: column;
+
+}
+
+ 
+header{
+    background-color: blue;
+    flex: 1;
+}
+
+#mainContainer{
+    background-color:yellow ;
+    flex: 22;
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    flex: 2;
+}
+
+aside{
+   background-color: blueviolet; 
+   flex: 1;
+}
+
+main{
+    background-color: #fff;
+    flex: 5;
+}
+
+
+
